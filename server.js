@@ -12,7 +12,7 @@ const PORT = 8080;
 app.use(express.json());
 
 // Conexión a MongoDB
-mongoose.connect('mongodb://localhost:27017/tu_nombre_de_base_de_datos', {
+mongoose.connect('mongodb://localhost:27017/Loperez', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
